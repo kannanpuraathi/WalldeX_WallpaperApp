@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Uri.parse('https://api.pexels.com/v1/curated?per_page=80&page=$num'),
         headers: {
           'Authorization':
-          '563492ad6f91700001000001b03f9cdc3d19478c8e3304e60dcae7be'
+          '563492ad6f91700001000001b03f98c8e3304e60dcae7be'
         }).then((value) {
       Map result = jsonDecode(value.body);
       setState(() {
